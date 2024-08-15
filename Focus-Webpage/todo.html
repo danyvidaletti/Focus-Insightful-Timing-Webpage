@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Focus & Insightful Timing - To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="logo" class="logo-img">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="landingpage.html">HOME</a></li>
+                <li><a href="benefits.html">BENEFITS</a></li>
+                <li><a href="todo.html" class="active">TO-DO LIST</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="todo">
+            <h2>Do not overthink, <strong>JUST DO IT!</strong></h2>
+
+            <div class="container">
+                <input class="input-task" placeholder="Things I have to do...">
+                <button class="button-add-task">ADD</button>
+
+                <ul class="task-list">
+                    <li class="task">
+                        <img src="./img/check.png" alt="task-checked" class="task-img">
+                    
+                        <img src="./img/trash.png" alt="task-deleted" class="task-img">
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+    </main>
+
+</body>
+
+<footer>
+    <p id="DateTime"></p>
+</footer>
+
+<script src="./script.js"></script>
+
+</html>
